@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <script>(function(k){if(typeof(k)==="undefined"){k={}}if(typeof(k.performance)==="undefined"){k.performance={}}k.performance.userTimingJsNow=false;k.performance.userTimingJsNowPrefixed=false;k.performance.userTimingJsUserTiming=false;k.performance.userTimingJsUserTimingPrefixed=false;k.performance.userTimingJsPerformanceTimeline=false;k.performance.userTimingJsPerformanceTimelinePrefixed=false;var f=[];var b=[];var d=null;var g,e;if(typeof(k.performance.now)!=="function"){k.performance.userTimingJsNow=true;b=["webkitNow","msNow","mozNow"];for(g=0;g<b.length;g++){if(typeof(k.performance[b[g]])==="function"){k.performance.now=k.performance[b[g]];k.performance.userTimingJsNowPrefixed=true;break}}var l=+(new Date());if(k.performance.timing&&k.performance.timing.navigationStart){l=k.performance.timing.navigationStart}if(typeof(k.performance.now)!=="function"){if(Date.now){k.performance.now=function(){return Date.now()-l}}else{k.performance.now=function(){return +(new Date())-l}}}}var h=function(){};var a=function(){};var o=[];var n=false;if(typeof(k.performance.getEntries)!=="function"){k.performance.userTimingJsPerformanceTimeline=true;f=["webkit","moz"];b=["getEntries","getEntriesByName","getEntriesByType"];for(g=0;g<b.length;g++){for(e=0;e<f.length;e++){d=f[e]+b[g].substr(0,1).toUpperCase()+b[g].substr(1);if(typeof(k.performance[d])==="function"){k.performance[b[g]]=k.performance[d];k.performance.userTimingJsPerformanceTimelinePrefixed=true}}}h=function(i){o.push(i);if(i.entryType==="measure"){n=true}};var c=function(){if(!n){return}o.sort(function(j,i){return j.startTime-i.startTime});n=false};a=function(j,i){g=0;while(g<o.length){if(o[g].entryType!==j){g++;continue}if(typeof(i)!=="undefined"&&o[g].name!==i){g++;continue}o.splice(g,1)}};if(typeof(k.performance.getEntries)!=="function"){k.performance.getEntries=function(){c();return o.slice(0)}}if(typeof(k.performance.getEntriesByType)!=="function"){k.performance.getEntriesByType=function(j){if(typeof(j)==="undefined"||(j!=="mark"&&j!=="measure")){return[]}if(j==="measure"){c()}var i=[];for(g=0;g<o.length;g++){if(o[g].entryType===j){i.push(o[g])}}return i}}if(typeof(k.performance.getEntriesByName)!=="function"){k.performance.getEntriesByName=function(j,p){if(p&&p!=="mark"&&p!=="measure"){return[]}if(typeof(p)!=="undefined"&&p==="measure"){c()}var i=[];for(g=0;g<o.length;g++){if(typeof(p)!=="undefined"&&o[g].entryType!==p){continue}if(o[g].name===j){i.push(o[g])}}return i}}}if(typeof(k.performance.mark)!=="function"){k.performance.userTimingJsUserTiming=true;f=["webkit","moz","ms"];b=["mark","measure","clearMarks","clearMeasures"];for(g=0;g<b.length;g++){for(e=0;e<f.length;e++){d=f[e]+b[g].substr(0,1).toUpperCase()+b[g].substr(1);if(typeof(k.performance[d])==="function"){k.performance[b[g]]=k.performance[d];k.performance.userTimingJsUserTimingPrefixed=true}}}var m={};if(typeof(k.performance.mark)!=="function"){k.performance.mark=function(j){var i=k.performance.now();if(typeof(j)==="undefined"){throw new SyntaxError("Mark name must be specified")}if(k.performance.timing&&j in k.performance.timing){throw new SyntaxError("Mark name is not allowed")}if(!m[j]){m[j]=[]}m[j].push(i);h({entryType:"mark",name:j,startTime:i,duration:0})}}if(typeof(k.performance.clearMarks)!=="function"){k.performance.clearMarks=function(i){if(!i){m={}}else{m[i]=[]}a("mark",i)}}if(typeof(k.performance.measure)!=="function"){k.performance.measure=function(r,s,p){var i=k.performance.now();if(!r){throw new Error("Measure must be specified")}if(!s){h({entryType:"measure",name:r,startTime:0,duration:i});return}var j=0;if(k.performance.timing&&s in k.performance.timing){if(s!=="navigationStart"&&k.performance.timing[s]===0){throw new Error(s+" has a timing of 0")}j=k.performance.timing[s]-k.performance.timing.navigationStart}else{if(s in m){j=m[s][m[s].length-1]}else{throw new Error(s+" mark not found")}}var q=i;if(p){q=0;if(k.performance.timing&&p in k.performance.timing){if(p!=="navigationStart"&&k.performance.timing[p]===0){throw new Error(p+" has a timing of 0")}q=k.performance.timing[p]-k.performance.timing.navigationStart}else{if(p in m){q=m[p][m[p].length-1]}else{throw new Error(p+" mark not found")}}}var t=q-j;h({entryType:"measure",name:r,startTime:j,duration:t})}}if(typeof(k.performance.clearMeasures)!=="function"){k.performance.clearMeasures=function(i){a("measure",i)}}}if(typeof define!=="undefined"&&define.amd){define([],function(){return k.performance})}else{if(typeof module!=="undefined"&&typeof(module.exports)!=="undefined"){module.exports=k.performance}}}(typeof(window)!=="undefined"?window:undefined));</script>
+    <script>performance.mark('headStart');</script>
+    
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>From Kent to Kabul</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+    
+<meta property="description" content="The former asylum seeking children sent back to Afghanistan" />
+<meta property="author" content="Maeve McClenaghan" />
+
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="From Kent to Kabul" />
+<meta property="og:description" content="The former asylum seeking children sent back to Afghanistan" />
+<meta property="og:image" content="http://labs.thebureauinvestigates.com/from-kent-to-kabul/media/removed_edit2-lr.jpg" />
+
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    </script>
+    <link href="./static/css/common.2146.css" rel="stylesheet" type="text/css" />
+    
+  <link href="./static/css/story.2146.css" rel="stylesheet" type="text/css" />
+  
+    
+    <script>
+  if (!Date.now) {
+    Date.now = function now() {
+      return new Date().getTime();
+    };
+  }
+</script>
+  
+  
+    
+    <style type="text/css">
+.story .section-header a:hover{border:none}@media (max-width:1100px){.story .small-inline{text-align:center}}@media (max-width:755px){.story .heading-block p,.story .heading-block h3,.story .st-text-block--heading{font-size:140%}.story .quote-block blockquote,.story blockquote{font-size:130%}}
+</style>
+  
+  
+
+  <style type="text/css" id="custom-css">
+    /**********************************************
+* You can override the css for your story here
+* We have pre-filled with common selectors to help
+/**********************************************/
+
+/**********************
+* Story
+***********************/
+/* Section Navigation */
+.section-navigation { }
+.section-navigation a { }
+
+/**********************
+* Section Types
+***********************/
+/* Title Section */
+.section-title .story-title { }
+.section-title .story-heading { }
+.section-title .story-metadata { }
+/* Background Scrollmation */
+.scrollmation-background .main-column { }
+/* Two Column Scrollmation */
+.scrollmation-two-column .main-column {}
+.scrollmation-two-column img { }
+/* Text Over Media */
+.section-text-over-media .text-over-media-inner { }
+
+
+/**********************
+* Specific Sections
+***********************/
+/* There will be an individual class attached
+ * to each section that you can target
+ * e.g: .section-scrollmation-1 */
+
+
+/**********************
+* Body Text Styles
+***********************/
+h1, h2, h3, h4, h5, h6 { }
+p { }
+strong { }
+em { }
+a { }
+ul { }
+ul li { }
+
+  </style>
+
+
+    
+      <script   type="text/javascript" src="./static/js/head.2146.js" charset="utf-8"></script>
+    
+    <!--[if IE 8]>
+      <script>
+        videojs.options.flash.swf = "./static/components/videojs/video-js.swf"
+      </script>
+    <![endif]-->
+    
+<script>(function(p, w, de) {
+  'use strict';
+  p.mark('startImages');
+
+  var assets;
+  try {
+    assets = JSON.parse('[[\u0022title\u0022, {\u0022portrait\u0022: null, \u0022media_type\u0022: \u0022image\u0022, \u0022landscape\u0022: {\u0022width\u0022: 1160, \u0022ratio\u0022: 1.6430594900849858, \u0022high_res_image\u0022: \u0022./media/removed_edit2\u002Dhr.jpg\u0022, \u0022medium_res_image\u0022: \u0022./media/removed_edit2\u002Dmr.jpg\u0022, \u0022low_res_image\u0022: \u0022./media/removed_edit2\u002Dlr.jpg\u0022, \u0022height\u0022: 706}}], [\u0022text\u002Dover\u002Dmedia\u0022, {\u0022portrait\u0022: null, \u0022media_type\u0022: \u0022image\u0022, \u0022landscape\u0022: {\u0022width\u0022: 853, \u0022ratio\u0022: 1.53971119133574, \u0022high_res_image\u0022: \u0022./media/interview_edit2_2\u002Dhr.jpg\u0022, \u0022medium_res_image\u0022: \u0022./media/interview_edit2_2\u002Dmr.jpg\u0022, \u0022low_res_image\u0022: \u0022./media/interview_edit2_2\u002Dlr.jpg\u0022, \u0022height\u0022: 554}}], [\u0022scrollmation\u002Dtwo\u002Dcolumn\u0022], [\u0022scrollmation\u002Dbackground\u0022, {\u0022portrait\u0022: null, \u0022media_type\u0022: \u0022image\u0022, \u0022landscape\u0022: {\u0022width\u0022: 1850, \u0022ratio\u0022: 3.7, \u0022high_res_image\u0022: \u0022./media/2015\u002D01\u002D15_21.23.47_blsjqed\u002Dhr_iiozojj.jpg\u0022, \u0022medium_res_image\u0022: \u0022./media/2015\u002D01\u002D15_21.23.47_blsjqed\u002Dmr_79j1pui.jpg\u0022, \u0022low_res_image\u0022: \u0022./media/2015\u002D01\u002D15_21.23.47_blsjqed\u002Dlr_dzr35ou.jpg\u0022, \u0022height\u0022: 500}}], [\u0022media\u0022, {\u0022poster\u0022: {\u0022ratio\u0022: 1.8254335260115606, \u0022text\u0022: \u0022\u0022, \u0022object_id\u0022: null, \u0022section_resource_uri\u0022: null, \u0022width\u0022: 1579, \u0022position\u0022: 1, \u0022portrait\u0022: null, \u0022media_type\u0022: \u0022image\u0022, \u0022height\u0022: 865, \u0022id\u0022: 94523, \u0022landscape\u0022: {\u0022width\u0022: 1579, \u0022ratio\u0022: 1.8254335260115606, \u0022high_res_image\u0022: \u0022./media/screen_shot_2015\u002D07\u002D17_at_11.40.31\u002Dhr.png\u0022, \u0022medium_res_image\u0022: \u0022./media/screen_shot_2015\u002D07\u002D17_at_11.40.31\u002Dmr.png\u0022, \u0022low_res_image\u0022: \u0022./media/screen_shot_2015\u002D07\u002D17_at_11.40.31\u002Dlr.png\u0022, \u0022image\u0022: \u0022./media/screen_shot_2015\u002D07\u002D17_at_11.40.31.png\u0022, \u0022id\u0022: 86754, \u0022height\u0022: 865}, \u0022resource_uri\u0022: \u0022/api/v1/image/94523/\u0022}, \u0022video_files\u0022: [{\u0022filename\u0022: \u0022./media/abdul_movie_1.mp4\u0022, \u0022encoding\u0022: \u0022video/mp4\u0022, \u0022id\u0022: 6925, \u0022media_resource_uri\u0022: \u0022/api/v1/video/94524/\u0022, \u0022resource_uri\u0022: \u0022/api/v1/video\u002Dfile/6925/\u0022}, {\u0022filename\u0022: \u0022./media/placeholder.webm\u0022, \u0022encoding\u0022: \u0022video/webm\u0022, \u0022id\u0022: 6926, \u0022media_resource_uri\u0022: \u0022/api/v1/video/94524/\u0022, \u0022resource_uri\u0022: \u0022/api/v1/video\u002Dfile/6926/\u0022}], \u0022fallback\u0022: null, \u0022media_type\u0022: \u0022video\u0022}], [\u0022scrollmation\u002Dtwo\u002Dcolumn\u0022, {\u0022portrait\u0022: null, \u0022media_type\u0022: \u0022image\u0022, \u0022landscape\u0022: {\u0022width\u0022: 594, \u0022ratio\u0022: 1.5037974683544304, \u0022high_res_image\u0022: \u0022./media/mch201405_bigjourneys__marcia_chandra_005_lores\u002D594x395\u002Dhr_muziieb.jpg\u0022, \u0022medium_res_image\u0022: \u0022./media/mch201405_bigjourneys__marcia_chandra_005_lores\u002D594x395\u002Dmr_nvlqkyh.jpg\u0022, \u0022low_res_image\u0022: \u0022./media/mch201405_bigjourneys__marcia_chandra_005_lores\u002D594x395\u002Dlr_x5o6fse.jpg\u0022, \u0022height\u0022: 395}}, {\u0022portrait\u0022: null, \u0022media_type\u0022: \u0022image\u0022, \u0022landscape\u0022: {\u0022width\u0022: 4272, \u0022ratio\u0022: 1.5, \u0022high_res_image\u0022: \u0022./media/img_1376\u002Dhr_3v9uhyc.jpg\u0022, \u0022medium_res_image\u0022: \u0022./media/img_1376\u002Dmr_dprfmmb.jpg\u0022, \u0022low_res_image\u0022: \u0022./media/img_1376\u002Dlr_owbhszp.jpg\u0022, \u0022height\u0022: 2848}}, {\u0022portrait\u0022: null, \u0022media_type\u0022: \u0022image\u0022, \u0022landscape\u0022: {\u0022width\u0022: 4272, \u0022ratio\u0022: 1.5, \u0022high_res_image\u0022: \u0022./media/img_1416\u002Dhr_dzmwatd.jpg\u0022, \u0022medium_res_image\u0022: \u0022./media/img_1416\u002Dmr_ldledds.jpg\u0022, \u0022low_res_image\u0022: \u0022./media/img_1416\u002Dlr_qtyxbfd.jpg\u0022, \u0022height\u0022: 2848}}, {\u0022portrait\u0022: null, \u0022media_type\u0022: \u0022image\u0022, \u0022landscape\u0022: {\u0022width\u0022: 4272, \u0022ratio\u0022: 1.5, \u0022high_res_image\u0022: \u0022./media/img_1410\u002Dhr_pzwow7p.jpg\u0022, \u0022medium_res_image\u0022: \u0022./media/img_1410\u002Dmr_tlowe40.jpg\u0022, \u0022low_res_image\u0022: \u0022./media/img_1410\u002Dlr_riqdt4k.jpg\u0022, \u0022height\u0022: 2848}}], [\u0022text\u002Dover\u002Dmedia\u0022, {\u0022portrait\u0022: null, \u0022media_type\u0022: \u0022image\u0022, \u0022landscape\u0022: {\u0022width\u0022: 7002, \u0022ratio\u0022: 1.3729411764705883, \u0022high_res_image\u0022: \u0022./media/2\u002Dhr.jpg\u0022, \u0022medium_res_image\u0022: \u0022./media/2\u002Dmr.jpg\u0022, \u0022low_res_image\u0022: \u0022./media/2\u002Dlr.jpg\u0022, \u0022height\u0022: 5100}}], [\u0022scrollmation\u002Dbackground\u0022, {\u0022portrait\u0022: null, \u0022media_type\u0022: \u0022image\u0022, \u0022landscape\u0022: {\u0022width\u0022: 2013, \u0022ratio\u0022: 1.5169555388093443, \u0022high_res_image\u0022: \u0022./media/img_1350_2\u002Dhr_kzrosxl.jpg\u0022, \u0022medium_res_image\u0022: \u0022./media/img_1350_2\u002Dmr_ulg1omm.jpg\u0022, \u0022low_res_image\u0022: \u0022./media/img_1350_2\u002Dlr_md1ilas.jpg\u0022, \u0022height\u0022: 1327}}], [\u0022text\u002Dover\u002Dmedia\u0022, {\u0022portrait\u0022: null, \u0022media_type\u0022: \u0022image\u0022, \u0022landscape\u0022: {\u0022width\u0022: 3242, \u0022ratio\u0022: 1.8707443739180611, \u0022high_res_image\u0022: \u0022./media/letter_edit_2\u002Dhr.jpg\u0022, \u0022medium_res_image\u0022: \u0022./media/letter_edit_2\u002Dmr.jpg\u0022, \u0022low_res_image\u0022: \u0022./media/letter_edit_2\u002Dlr.jpg\u0022, \u0022height\u0022: 1733}}], [\u0022media\u0022, {\u0022poster\u0022: {\u0022ratio\u0022: 2.079326923076923, \u0022text\u0022: \u0022\u0022, \u0022object_id\u0022: null, \u0022section_resource_uri\u0022: null, \u0022width\u0022: 1730, \u0022position\u0022: 1, \u0022portrait\u0022: null, \u0022media_type\u0022: \u0022image\u0022, \u0022height\u0022: 832, \u0022id\u0022: 94525, \u0022landscape\u0022: {\u0022width\u0022: 1730, \u0022ratio\u0022: 2.079326923076923, \u0022high_res_image\u0022: \u0022./media/screen_shot_2015\u002D07\u002D17_at_11.41.04\u002Dhr.png\u0022, \u0022medium_res_image\u0022: \u0022./media/screen_shot_2015\u002D07\u002D17_at_11.41.04\u002Dmr.png\u0022, \u0022low_res_image\u0022: \u0022./media/screen_shot_2015\u002D07\u002D17_at_11.41.04\u002Dlr.png\u0022, \u0022image\u0022: \u0022./media/screen_shot_2015\u002D07\u002D17_at_11.41.04.png\u0022, \u0022id\u0022: 86755, \u0022height\u0022: 832}, \u0022resource_uri\u0022: \u0022/api/v1/image/94525/\u0022}, \u0022video_files\u0022: [{\u0022filename\u0022: \u0022./media/abdul_2.mp4\u0022, \u0022encoding\u0022: \u0022video/mp4\u0022, \u0022id\u0022: 6927, \u0022media_resource_uri\u0022: \u0022/api/v1/video/94526/\u0022, \u0022resource_uri\u0022: \u0022/api/v1/video\u002Dfile/6927/\u0022}, {\u0022filename\u0022: \u0022./media/placeholder_vr13m5a.webm\u0022, \u0022encoding\u0022: \u0022video/webm\u0022, \u0022id\u0022: 6928, \u0022media_resource_uri\u0022: \u0022/api/v1/video/94526/\u0022, \u0022resource_uri\u0022: \u0022/api/v1/video\u002Dfile/6928/\u0022}], \u0022fallback\u0022: null, \u0022media_type\u0022: \u0022video\u0022}], [\u0022text\u002Dover\u002Dmedia\u0022, {\u0022portrait\u0022: null, \u0022media_type\u0022: \u0022image\u0022, \u0022landscape\u0022: {\u0022width\u0022: 4608, \u0022ratio\u0022: 1.6498388829215898, \u0022high_res_image\u0022: \u0022./media/removal_flight_crop\u002Dhr.jpg\u0022, \u0022medium_res_image\u0022: \u0022./media/removal_flight_crop\u002Dmr.jpg\u0022, \u0022low_res_image\u0022: \u0022./media/removal_flight_crop\u002Dlr.jpg\u0022, \u0022height\u0022: 2793}}], [\u0022scrollmation\u002Dtwo\u002Dcolumn\u0022], [\u0022text\u002Dover\u002Dmedia\u0022, {\u0022portrait\u0022: null, \u0022media_type\u0022: \u0022image\u0022, \u0022landscape\u0022: {\u0022width\u0022: 1160, \u0022ratio\u0022: 1.6430594900849858, \u0022high_res_image\u0022: \u0022./media/removed_edit2\u002Dhr_jrjztrf.jpg\u0022, \u0022medium_res_image\u0022: \u0022./media/removed_edit2\u002Dmr_vgmrsoh.jpg\u0022, \u0022low_res_image\u0022: \u0022./media/removed_edit2\u002Dlr_ptcvggi.jpg\u0022, \u0022height\u0022: 706}}], [\u0022scrollmation\u002Dtwo\u002Dcolumn\u0022, {\u0022portrait\u0022: null, \u0022media_type\u0022: \u0022image\u0022, \u0022landscape\u0022: {\u0022width\u0022: 2708, \u0022ratio\u0022: 1.5002770083102492, \u0022high_res_image\u0022: \u0022./media/shutterstock_160921583\u002Dhr_jdmpsr4.jpg\u0022, \u0022medium_res_image\u0022: \u0022./media/shutterstock_160921583\u002Dmr_qxq1xdo.jpg\u0022, \u0022low_res_image\u0022: \u0022./media/shutterstock_160921583\u002Dlr_dqt7qqx.jpg\u0022, \u0022height\u0022: 1805}}], [\u0022scrollmation\u002Dbackground\u0022, {\u0022portrait\u0022: null, \u0022media_type\u0022: \u0022image\u0022, \u0022landscape\u0022: {\u0022width\u0022: 539, \u0022ratio\u0022: 0.6771356783919598, \u0022high_res_image\u0022: \u0022./media/10891884_10205737405534634_4778801448883652337_n\u002Dhr_4n1xrc5.jpg\u0022, \u0022medium_res_image\u0022: \u0022./media/10891884_10205737405534634_4778801448883652337_n\u002Dmr_5wjt3zd.jpg\u0022, \u0022low_res_image\u0022: \u0022./media/10891884_10205737405534634_4778801448883652337_n\u002Dlr_xgwmtnb.jpg\u0022, \u0022height\u0022: 796}}], [\u0022inline\u0022]]')
+  } catch(e) {}
+
+  var AssetPreloader = {
+    assets: assets,
+    vw: w.innerWidth || de.clientWidth,
+    vh: w.innerHeight || de.clientHeight
+  };
+  AssetPreloader.isPortrait = AssetPreloader.vh > AssetPreloader.vw;
+  AssetPreloader.twoColumnScrollmationRes = AssetPreloader.inlineRes = (AssetPreloader.vw < 755) ? 'low' : 'medium';
+
+  // Calculate which resolution images we want
+  if (AssetPreloader.vw < 755) {
+    AssetPreloader.res = 'low';
+  } else if (AssetPreloader.vw < 1400) {
+    AssetPreloader.res = 'medium';
+  } else if (AssetPreloader.vw > 1400) {
+    AssetPreloader.res = 'high';
+  }
+
+  /**
+   * Copyright (c) Mozilla Foundation http://www.mozilla.org/
+   * This code is available under the terms of the MIT License
+   */
+  if (!Array.prototype.forEach) { Array.prototype.forEach = function(fun /*, thisp*/) { var len = this.length >>> 0; if (typeof fun != "function") { throw new TypeError(); } var thisp = arguments[1]; for (var i = 0; i < len; i++) { if (i in this) { fun.call(thisp, this[i], i, this); } } }; }
+
+  AssetPreloader.loadImage = function(image, res, sectionType, onLoad) {
+    if (image.media_type !== 'image') {
+      return;
+    }
+
+    var img = new Image();
+    var orientation = (AssetPreloader.isPortrait && image.portrait !== null) ? 'portrait' : 'landscape';
+    img.src = image[orientation][res + '_res_image'];
+    img.onload = function() {
+      p.mark(sectionType + 'ImageLoaded');
+      onLoad();
+    };
+  }
+
+  var VIDEO_FILE_TYPES = {
+    'video/mp4': 'h264',
+    'video/webm': 'webm'
+  }
+
+  AssetPreloader.loadVideo = function(videoFiles, onLoad) {
+    if (!Modernizr.video) {
+      return false;
+    }
+
+    var video = document.createElement('video');
+    for (var i = 0, l = videoFiles.length; i < l; i++) {
+      var videoFile = videoFiles[i];
+      var videoType = VIDEO_FILE_TYPES[videoFile.encoding];
+
+      if (Modernizr.video[videoType] === 'probably') {
+        video.src = videoFile.filename;
+        video.addEventListener('canplaythrough', function() {
+          onLoad();
+        });
+        video.load();
+        break;
+      }
+    }
+  }
+
+  AssetPreloader.createSectionLoadingTracker = function(trackerName, imagesLength) {
+    p.mark(trackerName+'Loading');
+    var imagesLoaded = 0;
+
+    return function() {
+      imagesLoaded += 1;
+
+      if (imagesLoaded === imagesLength) {
+        p.mark(trackerName + 'Loaded');
+      }
+    };
+  }
+
+  AssetPreloader.createTimingMeasures = function(trackerName) {
+    return function() {
+      try {
+        p.measure(trackerName + 'LoadedTime', trackerName + 'Loading', trackerName + 'Loaded');
+        p.measure(trackerName + 'EndTime', 'fetchStart', trackerName + 'Loaded');
+      } catch(e) {}
+    };
+  }
+
+  var SectionLoaders = AssetPreloader.SectionLoaders = {};
+
+  SectionLoaders['text-over-media'] = function(sectionMedia, res, sectionType, loadingTracker) {
+    sectionMedia = sectionMedia[0];
+    if (sectionMedia.media_type === 'image') {
+      AssetPreloader.loadImage(sectionMedia, res, sectionType, loadingTracker);
+    }
+  };
+
+  SectionLoaders['title'] = function(sectionMedia, res, sectionType, loadingTracker) {
+    sectionMedia = sectionMedia[0];
+    if (sectionMedia.media_type === 'image') {
+      AssetPreloader.loadImage(sectionMedia, res, sectionType, loadingTracker);
+    } else if (sectionMedia.media_type === 'video') {
+      AssetPreloader.loadVideo(sectionMedia.video_files, loadingTracker);
+    }
+  };
+
+  SectionLoaders['scrollmation-two-column'] = function(sectionMedia, res, sectionType, loadingTracker) {
+    res = AssetPreloader.twoColumnScrollmationRes;
+    sectionMedia.forEach(function(media) {
+      AssetPreloader.loadImage(media, res, sectionType, loadingTracker);
+    });
+  };
+
+  SectionLoaders['scrollmation-background'] = function(sectionMedia, res, sectionType, loadingTracker) {
+    sectionMedia.forEach(function(media) {
+      AssetPreloader.loadImage(media, res, sectionType, loadingTracker);
+    });
+  };
+
+  SectionLoaders['media'] = function(sectionMedia, res, sectionType, loadingTracker) {
+    res = 'medium';
+    if ('poster' in sectionMedia[0]) {
+      AssetPreloader.loadImage(sectionMedia[0].poster, res, sectionType, loadingTracker);
+    }
+  };
+
+  SectionLoaders['inline'] = function(sectionMedia, res, sectionType, loadingTracker) {
+    res = AssetPreloader.inlineRes;
+    sectionMedia.forEach(function(image) {
+      AssetPreloader.loadImage(image, res, sectionType, loadingTracker);
+    });
+  };
+
+  AssetPreloader.loadSectionAssets = function(section, i) {
+    var sectionType = section[0];
+    var sectionMedia = section.slice(1);
+    var sectionMediaLength = sectionMedia.length;
+    // Number is padded with a zero where required
+    // Incremented so we start at one and not zero
+    var sectionNumber = (i+1 < 10) ? '0' + (i+1) : i+1;
+    var trackerName = 's' + sectionNumber;
+    var loadingTracker = AssetPreloader.createSectionLoadingTracker(trackerName, sectionMediaLength);
+
+    SectionLoaders[sectionType](sectionMedia, AssetPreloader.res, sectionType, loadingTracker);
+
+    if (window.addEventListener) {
+      window.addEventListener('load', AssetPreloader.createTimingMeasures(trackerName));
+    } else if (window.attachEvent) {
+      window.attachEvent('onload', AssetPreloader.createTimingMeasures(trackerName));
+    }
+  };
+
+  AssetPreloader.loadAssets = function(assets) {
+    if (!assets) { return; }
+    assets.forEach(AssetPreloader.loadSectionAssets);
+  };
+
+  AssetPreloader.loadAssets(AssetPreloader.assets);
+
+  p.mark('endImages');
+  p.measure('imagesTime', 'startImages', 'endImages');
+
+  window.AssetPreloader = AssetPreloader;
+}(window.performance, window, document.documentElement));</script>
+<script>
+  Device.isIE11 = function() { return true; };
+</script>
+
+
+    <script>
+      if (document.documentElement && Device.isMacRetinaChrome()) {
+        document.documentElement.className += ' mac-retina-chrome';
+      }
+    </script>
+
+    <script>performance.mark('headEnd');</script>
+  </head>
+
+  <body class="" id="story-body" data-responsejs='{
+  "create": [{
+    "prop": "width",
+    "prefix": "src",
+    "breakpoints": [0, 755]
+  }]
+}'>
+  
+    
+  
+  
+
+  <script>
+  performance.mark('sectionsStart');
+  </script>
+  <article class="story">
+    
+    
+      <div class="navigation">
+        <div class="menu-overlay"></div>
+        <nav class="section-navigation hide-when-small">
+        
+          <a href="#from-kent-to-kabul-3339" class="section-navigator">From Kent to Kabul</a>
+        
+          <a href="#a-child-seeks-refuge-8757" class="section-navigator">A child seeks refuge</a>
+        
+          <a href="#becoming-british-8424" class="section-navigator">Becoming British</a>
+        
+          <a href="#the-child-turns-18-8425" class="section-navigator">The child turns 18</a>
+        
+          <a href="#waiting-for-deportation-8759" class="section-navigator">Waiting for deportation</a>
+        
+          <a href="#back-in-afghanistan-8426" class="section-navigator">Back in Afghanistan</a>
+        
+        </nav>
+      </div>
+    
+    <div class="sections-list">
+      <div id="header-3349" class="section section-header">
+  <div class="header-panel header-logo-panel">
+    
+      <a href="thebureauinvestigates.com" title="">
+        <img class="header-logo" src="./media/bureau_logo_full_res_long-hr.png" alt="" />
+      </a>
+    
+  </div>
+
+  <div class="header-panel header-social-panel">
+    <ul class="header-social-list">
+      
+        <li>
+          <div id="fb-root"></div>
+          <script>
+            (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=688208901310574";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+          </script>
+          <div class="fb-share-button" href="" width="200" type="button_count"></div>
+        </li>
+      
+
+      
+        <li>
+          <div class="twitter-button">
+            <a class="header-twitter active twitter-share-button" href="https://twitter.com/share" data-url="" data-text="From Kent to Kabul: The former asylum seeking children sent back to Afghanistan" data-via="TBIJ" data-counturl="http://labs.thebureauinvestigates.com/from-kent-to-kabul" data-lang="en"></a>
+          </div>
+          <script>
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+          </script>
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="small-menu nav-required" >
+    <a href="#">
+      <i class="icon-menu"></i>
+    </a>
+  </div>
+</div>
+<script>
+  performance.mark('titleStart');
+</script>
+
+
+  <style>
+    .section-title-3339 {
+      background-image: url(./media/removed_edit2-hr.jpg);
+    }
+
+    .lt-ie9 .section-title-3339 {
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./media/removed_edit2-hr.jpg', sizingMethod='scale')";
+    }
+
+    @media (max-width: 755px){
+      .section-title-3339 {
+        background-image: url(./media/removed_edit2-lr.jpg);
+      }
+    }
+    @media (min-width: 755px) and (max-width: 1400px) {
+      .section-title-3339 {
+        background-image: url(./media/removed_edit2-mr.jpg);
+      }
+    }
+    
+  </style>
+
+
+<div id="from-kent-to-kabul-3339" class="section section-text-over-media section-title section-title-3339" data-viewport-height>
+  <div class="text title-inner center center">
+      <h1 class="story-title text-inner large">From Kent to Kabul</h1>
+      <h2 class="story-heading text-inner normal">The former asylum seeking children sent back to Afghanistan</h2>
+  </div>
+
+  <div class="story-metadata center text">By Maeve McClenaghan<br />The Bureau of Investigative Journalism<br />Illustrations by Ella Paton</div>
+
+  <div class="background-overlay">
+    
+  </div>
+</div>
+
+<script>
+  //IE9 fix to stop audio playing
+  var video = document.getElementById('video-from-kent-to-kabul-3339')
+    if (video){
+      video.muted = true;
+    }
+  ViewportHeight.attachTo(document.getElementById('from-kent-to-kabul-3339'));
+  if ('performance' in window) {
+    window.performance.mark('titleEnd');
+  }
+</script>
+<div id="text-1415" class="section section-text inner-column-centered "
+  
+>
+  
+
+  <div class="main-column">
+    <div class="block text-block"><p>Under the table, Ameer’s feet twitch and his hands grip a blue plastic folder bulging with documents. The planes flying in and out of nearby Heathrow can be heard faintly through the sealed windows of the chilly tribunal room. Ameer is pale and quiet, a different boy to the chirpy 18-year-old who'd rocked up in a cafe a few weeks earlier. This is his big day: he is facing an immigration appeal judge to find out if he will be forcibly removed from the UK, where he has lived since he was a boy, and sent back to Afghanistan, a country he no longer knows. It is, he says, like waiting to find out if he will live or die.  </p>
+<p>Ameer is one of more than 15,000 asylum-seeking children who have arrived alone in the UK since 2006. These children come from all over the world, but the largest single group in recent years – more than 5,500 children – has come from Afghanistan.  </p>
+<p>For the past year the Bureau of Investigative Journalism has been tracking a number of these children. Most are not given asylum but instead temporary leave to remain, a quick fix that effectively leaves them pending in the system until they become adults. At that point they must claim asylum again, and face deportation if their claim is rejected.  </p>
+<p>This is what happened to Ameer and now he is sitting before an inscrutable judge and an incredulous Home Office official trying to explain how he arrived on UK shores alone and aged just 14.  </p>
+<p>“My father was a general in the Afghan army,” says the softly-spoken teenager in a very English accent, his short, gangly frame hunched forward in his chair. “One night the Taliban came and took him. There were 10 men outside my house, and a truck. There were guns and people with their faces covered. When I saw the Taliban, I snuck out the back door. They posted up letters addressed to my mother telling her to give me up.” Ameer’s English is very good, but the judge tells him to speak in Pashto and through an interpreter. Several times, Ameer corrects the interpreter’s translation.  </p>
+<p>The lawyer employed to make the Home Office’s case is disbelieving. “What you’ve told me isn’t true,” he tells Ameer, “you’ve made it up.” Emotional, Ameer insists he has not.  </p>
+<p>Later his lawyer tells the judge about the networks of Taliban informants in Kabul. “Ameer could be tortured [if he is returned],” the lawyer says as Ameer stares at the floor, “that is a real likelihood.”  </p>
+<p>Ameer’s struggle is far from unique. Just 6% of Afghan children have been given asylum since 2006, far fewer than adults who have applied. Instead the majority - more than 80% - were given temporary leave to remain until they were 18. The rest were assessed not to be children.  </p>
+<p>Children given temporary leave must reapply for asylum once they are 17 and a half, but with memories faded and documents often lost it is harder to fight the case. Those who lose are then forcibly removed to a country many have lost touch with and with very little help to adjust to the substantially different environment.  </p>
+<p>The Home Office does not track what happens to the young adults they deport, but lawyers and NGOs have long argued it is unsafe to send people back to Afghanistan, particularly for young people who have grown up in the UK and who have become westernised. One Afghan minister has told the Bureau that those returned are not safe, and that he has asked the British government to stop some forced removals. Even the Home Office’s own assessment has noted a serious rise in violence against Afghan civilians in the last two years.  </p>
+<p>As the lawyers in the tribunal trade jibes, all of this weighs heavily on Ameer’s mind.  </p></div>
+  </div>
+
+  
+</div>
+<script>
+  //IE9 fix to stop audio playing
+  var video = document.getElementById('video-text-1415')
+    if (video){
+      video.muted = true;
+    }
+</script><style>
+  
+    .section-text-over-media-8757 {
+      background-image: url(./media/interview_edit2_2-hr.jpg);
+    }
+
+    .lt-ie9 .section-text-over-media-8757 {
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./media/interview_edit2_2-hr.jpg', sizingMethod='scale')";
+    }
+
+    @media (max-width: 755px){
+      .section-text-over-media-8757 {
+        background-image: url(./media/interview_edit2_2-lr.jpg);
+      }
+    }
+    @media (min-width: 755px) and (max-width: 1400px) {
+      .section-text-over-media-8757 {
+        background-image: url(./media/interview_edit2_2-mr.jpg);
+      }
+    }
+    
+  
+</style>
+
+<div id="a-child-seeks-refuge-8757" class="section section-text-over-media section-text-over-image section-text-over-media-8757 has-text" data-viewport-height>
+  <div class="text text-over-media-inner center center normal">
+    
+      <h2 class="text-inner">
+        <strong>A child seeks refuge</strong>
+      </h2>
+    
+  </div>
+
+  <div class="background-overlay">
+    
+  </div>
+
+  
+
+  <img alt="" data-landscape-src="./media/interview_edit2_2-hr.jpg" data-portrait-src="" class="section-background-image text-over-media-background-image retina-only" data-autoscale="cover">
+</div>
+
+<script>
+(function() {
+  //IE9 fix to stop audio playing
+  var video = document.getElementById('video-a-child-seeks-refuge-8757');
+  if (video){
+    video.muted = true;
+  }
+  var section = document.getElementById('a-child-seeks-refuge-8757');
+
+  // Chrome on MacBook Retina
+  if (Device.isMacRetinaChrome()) {
+    var backgroundImage = document.querySelector('#a-child-seeks-refuge-8757 .section-background-image');
+    var srcProperty = 'landscapeSrc';
+
+    if (Shorthand.helpers.isPortrait() && backgroundImage.dataset.portraitSrc.length) {
+      srcProperty = 'portraitSrc';
+    }
+
+    backgroundImage.src = backgroundImage.dataset[srcProperty];
+    backgroundImage.style.display = 'block';
+    section.style.backgroundImage = 'none';
+  }
+
+  ViewportHeight.attachTo(section);
+}());
+</script>
+<div id="scrollmation-two-column-3988" class="section section-scrollmation scrollmation-two-column section-two-column-3988" data-possible-scrollmation data-scrollmation-container="#scrollmation-two-column-3988" data-viewport-height data-viewport-height-property="min-height">
+  <div class="two-column-grid">
+    <div class="column column-right main-column scrollmation-text">
+      
+        <div class="block text-block"><p><strong>A child seeks refuge</strong>  </p>
+<p>A month earlier the teenager’s biggest concerns had been those of any other his age. As he bowled in to central London the most pressing thing on his mind was his college coursework; he is in the second year of a motor vehicle mechanics course which he loves.  </p>
+<p>It has been five years since Ameer arrived in the UK, and he seems a confident and well-mannered young man. He is cheery and quick to laugh at first, but his eyes turn a shade darker when asked how he ended up in the UK alone aged just 14.  </p>
+<p>“The way coming from Afghanistan is a very hard way,” he says. “Passing the borders at night you can’t see anyone [except] the agents [people smugglers], you don’t know the language or what they are saying, but your life is in their hands. They can do what they like.  </p>
+<p>“I was beaten and drugged. They’d been verbally abusing me and more things,” he adds, his voice trailing off.  </p>
+<p>The Bureau interviewed seven boys for this story. Like Ameer, all made the perilous journey from Afghanistan to Britain in their early teens – most were 13 or 14. One described how he watched friends die in front of his eyes in a car crash in Iran. Another spent long nights sleeping in the snow, convinced he would not survive until morning. One said he was kidnapped by people smugglers in Greece and held in a house with no food until he managed to escape.  </p>
+<p>Their reasons for leaving their homes and families vary: some are the sons of policemen or army personnel targeted by the Taliban, one was told he was to be recruited as a suicide bomber; other boys left when fighting in neighbouring villages drew closer. A <a href="http://www.unhcr.org/548ea0f09.pdf">report from UNHCR</a> last year explored the motivations of those who sent their children away and found a mixture of inter-related factors often came into play, including fears over security, poverty and a lack of opportunities for the child's future. In most cases their families sold land to pay people smugglers to get them across borders – up to $15,000. In every case, the journeys take their toll.  </p>
+<p>After many hours crammed into a tiny space under the floor of a haulage lorry, Ameer arrived in Dover, where police found him.  </p>
+<p>“When I arrived at UKBA [immigration centre], I had a very hot temperature,” Ameer recalls. “[I said] 'I’m not feeling well, you can’t interview me now’, but they ignored me. I don’t even remember what I said to them.”  </p></div>
+      
+    </div>
+
+    <div class="column margin-right secondary-column position-static">
+      <div class="scrollmation-slides" data-copy-elements=".section-two-column-3988 [data-copy-element]" data-scrollmation-slides>
+      </div>
+    </div>
+  </div>
+</div><div id="scrollmation-background-3930" class="section section-scrollmation scrollmation-background section-scrollmation-3930 inner-column-left" data-scrollmation-container=".section-scrollmation-3930" data-scrollmation="background" data-viewport-height data-viewport-height-property="min-height">
+  
+    <div class="tiny-scrollmation vh66"></div>
+    <style>
+      .section-scrollmation-3930 .tiny-scrollmation {
+        background-image: url(./media/2015-01-15_21.23.47_blsjqed-lr_dzr35ou.jpg);
+        background-position: right;
+      }
+    </style>
+  
+
+  <div class="two-column-grid">
+    <div class="column column-left main-column scrollmation-text">
+      <div class="block text-block"><p><strong>A "culture of disbelief"</strong>  </p>
+<p>“The first thing that hits young people when they arrive in this country is that they are routinely disbelieved,” says Professor Susan Clayton, of Goldsmiths University who has been interviewing asylum seekers, many of them children, since 2001. “There is a tendency to treat them like adults: to interview them like adults; to assume they understand which country they are in, [and about] the benefits system. There’s a tendency to assume they’re on the make.”  </p>
+<p>The fact that some children are supplied with false documents or set answers by people smugglers can also complicate matters. Other children arrive with no proof to back up their story.  </p>
+<p>Under international and national guidance all decision makers are supposed to consider what is in the “best interests of the child” and after providing certain evidence children should be given the benefit of the doubt. However, many social workers, NGOs and immigration lawyers told the Bureau there is a prevailing “culture of disbelief” in the Home Office.  </p>
+<p>Mahmood came to the UK from Afghanistan in 1999 as an adult, and was granted asylum. Now he is a social worker who works with unaccompanied asylum-seeking children, including Ameer.  </p>
+<p>“These children have come on this arduous journey,” he says. “Starved, beaten, sexually exploited; when they arrive they often just shut their mouths. Then they are treated with suspicion. I’ve attended many interviews where the Home Office person says, ‘I think you are lying’, and I am sat in the corner, not allowed to say anything, thinking ‘Where have we come to?’ There is no respect shown to these children.”  </p>
+<p>The Bureau analysed asylum rejection letters given to Afghan children and found various instances of children being rejected because the immigration officer simply did not believe their story.  </p>
+<p>In one letter, an Afghan boy is told that his original claim, put in when he was 14 years old, is not credible, because: “It is not accepted that your father transferred the land into your name, nor that your cousins tried to shoot your father; nor accepted that the Taliban came to your house in the middle of the night and did not wake you.” No explanation was given to the boy as to why the Home Office did not accept his claims.  </p>
+<p>In another letter – one of 20 analysed by the University of Kent – a child was refused because he did not know the names and ethnic origin of the three Taliban men who came to his home the night his father was killed. The Home Office suggested if he did not know this then he could not know they were Taliban.  </p>
+<p>In Ameer’s case, he was able to provide a letter that he says the Taliban sent his mother. In his asylum application he says it was one of many pinned up near his home, threatening his life. Country information reports confirm that the Taliban often leave letters posted up at night, exactly the way Ameer describes. But in his tribunal hearing the Home Office lawyer picks the letter apart.  </p>
+<p>“It’s not a real letter. Did your father or uncle fake this letter for you?”  </p>
+<p>“The letter has the Taliban stamp on and is signed by them,” Ameer says. “My father was taken by the Taliban, how could I ask my father to make this letter for me?”  </p>
+<p>The lawyer is resolute, arguing that the fact Ameer only has one of the letters is proof that he is lying. “How likely is it that his mother would let a piece of crucial evidence like the Taliban’s letters go?” the lawyer asks when summing up. “Those are factual errors which undermine [Ameer’s] credibility.”  </p>
+<p>Catherine Gladwell is director of Refugee Support Network, a charity that works with over 300 refugee, asylum-seeking and trafficked children across London. She explains how small differences in the details a child gives when they first arrive and later as an adult can negatively affect their chances. “As a child that has experienced trauma, your memory and the way you tell the story is going to be affected. A child’s account of times and dates when they first arrive in the UK might differ slightly to [the details they later give] when they turn 18. Unfortunately [slight inconsistencies] can undermine their entire credibility,” she says.  </p></div>
+    </div>
+  </div>
+
+  <div class="scrollmation-slides-wrapper">
+    <div class="scrollmation-slides scrollmation" data-scrollmation-slides>
+      
+        <aside class="scrollmation-background-container">
+          
+            <img src="./media/2015-01-15_21.23.47_blsjqed-lr_dzr35ou.jpg" data-min-width-1001="./media/2015-01-15_21.23.47_blsjqed-mr_79j1pui.jpg" data-min-width-1401="./media/2015-01-15_21.23.47_blsjqed-hr_iiozojj.jpg" data-scrollmation-slide data-autoscale-anchor="right" width="1850" height="500">
+          
+
+          
+        </aside>
+      
+    </div>
+  </div>
+</div>
+
+<script>
+  //IE9 fix to stop audio playing
+  var videos = document.getElementsByClassName('video-scrollmation-background-3930');
+  if (videos){
+    for (var i=0; i < videos.length; i++){
+      videos[i].muted = true;
+    }
+  }
+</script><style>
+  
+</style>
+
+<div id="media-1970" class="section section-media section-media-video section-media-1970" data-viewport-height data-video-player data-viewport-height-ignore-orientation="portrait">
+  
+    
+      <video class="video-js vjs-default-skin" controls preload="none" poster="./media/screen_shot_2015-07-17_at_11.40.31-mr.png" width="100%" height="100%" data-ratio="1.77777777778">
+        
+          <source src="./media/abdul_movie_1.mp4" type="video/mp4"/>
+        
+          <source src="./media/placeholder.webm" type="video/webm"/>
+        
+      </video>
+    
+  
+
+  
+
+
+  
+</div>
+
+<script>
+  ViewportHeight.attachTo(document.getElementById('media-1970'));
+</script><div id="scrollmation-two-column-3989" class="section section-scrollmation scrollmation-two-column section-two-column-3989" data-possible-scrollmation data-scrollmation-container="#scrollmation-two-column-3989" data-viewport-height data-viewport-height-property="min-height">
+  <div class="two-column-grid">
+    <div class="column column-left main-column scrollmation-text">
+      
+        <div class="block text-block"><p><strong>Born on the first of January</strong> </p><aside class="scrollmation-inline " data-copy-element data-media-ratio="1.50379746835" data-resize-element=".scrollmation-two-column .secondary-column" data-scrollmation-slide>
+<img alt="©2014 Marcia Chandra" class="inline-image edit-image-button" data-min-width-1401="./media/mch201405_bigjourneys__marcia_chandra_005_lores-594x395-mr_nvlqkyh.jpg" src="./media/mch201405_bigjourneys__marcia_chandra_005_lores-594x395-lr_x5o6fse.jpg">
+<p class="caption">©2014 Marcia Chandra</p>
+</img></aside>
+
+<p>Proving their age is often particularly hard for boys from Afghanistan. The early onset of facial hair can make some look older and many don’t have identity documents. Indeed, before a UN-backed scheme was rolled out in 2008, birth certificates were not common.  </p>
+<p>When age is disputed children are put through an official age assessment by social workers from their Local Authority. Figures acquired by the Bureau reveal that last year a quarter of all unaccompanied children in local authority care were put through an age assessment. Of those, 72% were found to be under 18.  </p>
+<p>It is a popular date. In just five local authorities alone there were currently 76 of the total 600 asylum-seeking children with a January 1 birthday, and 43 of them were Afghan.  </p>
+<p>Age assessments are generally performed by social workers, who ask the child about their education, experience and life in their home country, and make notes about the child's demeanour and appearance. Interviews last an hour, often through an interpreter.  </p><aside class="scrollmation-inline " data-copy-element data-media-ratio="1.5" data-resize-element=".scrollmation-two-column .secondary-column" data-scrollmation-slide>
+<img alt="" class="inline-image edit-image-button" data-min-width-1401="./media/img_1376-mr_dprfmmb.jpg" src="./media/img_1376-lr_owbhszp.jpg">
+</img></aside>
+
+<p>It can take three rounds of questioning before the social worker settles on a believed birth-date.  </p>
+<p>Debra Hayes trains social workers in Manchester. She has also volunteered as an appropriate adult, a companion for unaccompanied children going through age assessments.  </p>
+<p>“The assessment can be very oppressive,” she says, her Mancunian accent deepening as her anger grows. “Many of these children, especially those from Afghanistan, have been trafficked by people smugglers, who have told them what to say. So you get children giving stock answers, which gets interpreted as them telling lies, which makes the social worker think they must be older than they say.”  </p>
+<p>Given so much of their asylum claim is based on being found to be credible, a dispute over a child’s given age can undermine their later case.  </p><aside class="scrollmation-inline " data-copy-element data-media-ratio="1.5" data-resize-element=".scrollmation-two-column .secondary-column" data-scrollmation-slide>
+<img alt="" class="inline-image edit-image-button" data-min-width-1401="./media/img_1416-mr_ldledds.jpg" src="./media/img_1416-lr_qtyxbfd.jpg">
+</img></aside>
+
+<p>“Information gathered in an age assessment interview should not be inappropriately used by the Home Office or tribunal to discredit a child in their asylum claim,” says Kamena Dorling, manager of the Migrant Children’s Project at Coram Children’s Legal Centre. “But we’ve seen age assessments being used in this way, with negative decisions relying on minor inconsistencies between what the young person had told the local authority during an age assessment and what he told the Home Office.”  </p>
+<p>January 1 was also the birthday assigned to Abdul. Home Office officials decided he was 16 when he arrived more than seven years ago.  </p>
+<p>Now sat on the edge of his bed in a north London bedsit that measures little more than five square metres, he breaks down into silent tears. It has been more than eight years since he saw his mother, but the memory of leaving her is enough to make him sob.  </p>
+<p>Abdul is short with large kind eyes. The 23 year old is a big fan of cycling, reading and Chelsea football club. Right now, he is waiting to find out if, after eight years in the UK, he will be removed to his native Afghanistan.  </p><aside class="scrollmation-inline " data-copy-element data-media-ratio="1.5" data-resize-element=".scrollmation-two-column .secondary-column" data-scrollmation-slide>
+<img alt="" class="inline-image edit-image-button" data-min-width-1401="./media/img_1410-mr_tlowe40.jpg" src="./media/img_1410-lr_riqdt4k.jpg">
+</img></aside>
+
+<p>He arrived in the UK in 2007. Like Ameer, he was smuggled in the back of a lorry. He left Afghanistan after distant relatives came to try and recruit the young teenager to fight with the Taliban. He says his desperate mother sold land and paid people traffickers to get him to safety. He says he was around 15 when he left.  </p>
+<p>“The way coming here was dangerous,” Abdul says, “we were in the hands of gangsters that would beat us, there was no food and we were walking in snow up to our knees.” At one point he nearly drowned when the rubber-dinghy he and others were using to navigate the Mediterranean sea capsized.  </p>
+<p>Finally he made it to the UK.  </p>
+<p>“When I went to the Home Office I told them my age but they didn’t believe me. In my country we don’t have proof [of age], most people are born at home and they don’t write things down,” he says.  </p></div>
+      
+    </div>
+
+    <div class="column margin-left secondary-column position-static">
+      <div class="scrollmation-slides" data-copy-elements=".section-two-column-3989 [data-copy-element]" data-scrollmation-slides>
+      </div>
+    </div>
+  </div>
+</div><style>
+  
+    .section-text-over-media-8424 {
+      background-image: url(./media/2-hr.jpg);
+    }
+
+    .lt-ie9 .section-text-over-media-8424 {
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./media/2-hr.jpg', sizingMethod='scale')";
+    }
+
+    @media (max-width: 755px){
+      .section-text-over-media-8424 {
+        background-image: url(./media/2-lr.jpg);
+      }
+    }
+    @media (min-width: 755px) and (max-width: 1400px) {
+      .section-text-over-media-8424 {
+        background-image: url(./media/2-mr.jpg);
+      }
+    }
+    
+  
+</style>
+
+<div id="becoming-british-8424" class="section section-text-over-media section-text-over-image section-text-over-media-8424 has-text" data-viewport-height>
+  <div class="text text-over-media-inner center center normal">
+    
+      <h2 class="text-inner">
+        <strong>Becoming British</strong>
+      </h2>
+    
+  </div>
+
+  <div class="background-overlay">
+    
+  </div>
+
+  
+
+  <img alt="" data-landscape-src="./media/2-hr.jpg" data-portrait-src="" class="section-background-image text-over-media-background-image retina-only" data-autoscale="cover">
+</div>
+
+<script>
+(function() {
+  //IE9 fix to stop audio playing
+  var video = document.getElementById('video-becoming-british-8424');
+  if (video){
+    video.muted = true;
+  }
+  var section = document.getElementById('becoming-british-8424');
+
+  // Chrome on MacBook Retina
+  if (Device.isMacRetinaChrome()) {
+    var backgroundImage = document.querySelector('#becoming-british-8424 .section-background-image');
+    var srcProperty = 'landscapeSrc';
+
+    if (Shorthand.helpers.isPortrait() && backgroundImage.dataset.portraitSrc.length) {
+      srcProperty = 'portraitSrc';
+    }
+
+    backgroundImage.src = backgroundImage.dataset[srcProperty];
+    backgroundImage.style.display = 'block';
+    section.style.backgroundImage = 'none';
+  }
+
+  ViewportHeight.attachTo(section);
+}());
+</script>
+<div id="scrollmation-background-3928" class="section section-scrollmation scrollmation-background section-scrollmation-3928 inner-column-left" data-scrollmation-container=".section-scrollmation-3928" data-scrollmation="background" data-viewport-height data-viewport-height-property="min-height">
+  
+    <div class="tiny-scrollmation vh66"></div>
+    <style>
+      .section-scrollmation-3928 .tiny-scrollmation {
+        background-image: url(./media/img_1350_2-lr_md1ilas.jpg);
+        background-position: right;
+      }
+    </style>
+  
+
+  <div class="two-column-grid">
+    <div class="column column-left main-column scrollmation-text">
+      <div class="block text-block"><p><strong>Becoming British</strong>  </p>
+<p>Within a few months of arrival Abdul had his temporary leave and papers. “Nobody explained [temporary leave] to me, I was like ‘ok I’m going to live here forever’, things were normal for a long time. I made friends at school and played sport and I was happy, I was very happy,” he says.  </p>
+<p>One teacher at his school was so impressed by his attitude she still acts as an informal mentor and has helped him set up a blog about life as an asylum seeking teenager.  </p>
+<p>Like Abdul, Mohammed, who was just 14 when he arrived in the UK, developed strong ties with his local community. He was placed with a foster family who grew attached to the boy.  </p>
+<p>“Mohammed first came to us when he was very young,” says Mohammed’s foster mother, as she paces and frets outside his immigration hearing. “He’s been a member of the family ever since."  </p>
+<p>She proudly lists his achievements: his work on a sports project helping homeless people, the way he helps other foster kids, his dedication to the local cricket team. “He gives so much back; he even gives blood. There is someone here in the UK walking around alive because of Mohammed’s blood.”  </p>
+<p>Mohammed’s teachers are proud of him too: “He has been so determined to do well, so pleased to be in college. You see this young man with so many other things to deal with, and you just think, 'Wow'!”  </p></div>
+    </div>
+  </div>
+
+  <div class="scrollmation-slides-wrapper">
+    <div class="scrollmation-slides scrollmation" data-scrollmation-slides>
+      
+        <aside class="scrollmation-background-container">
+          
+            <img src="./media/img_1350_2-lr_md1ilas.jpg" data-min-width-1001="./media/img_1350_2-mr_ulg1omm.jpg" data-min-width-1401="./media/img_1350_2-hr_kzrosxl.jpg" data-scrollmation-slide data-autoscale-anchor="right" width="2013" height="1327">
+          
+
+          
+        </aside>
+      
+    </div>
+  </div>
+</div>
+
+<script>
+  //IE9 fix to stop audio playing
+  var videos = document.getElementsByClassName('video-scrollmation-background-3928');
+  if (videos){
+    for (var i=0; i < videos.length; i++){
+      videos[i].muted = true;
+    }
+  }
+</script><style>
+  
+    .section-text-over-media-8425 {
+      background-image: url(./media/letter_edit_2-hr.jpg);
+    }
+
+    .lt-ie9 .section-text-over-media-8425 {
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./media/letter_edit_2-hr.jpg', sizingMethod='scale')";
+    }
+
+    @media (max-width: 755px){
+      .section-text-over-media-8425 {
+        background-image: url(./media/letter_edit_2-lr.jpg);
+      }
+    }
+    @media (min-width: 755px) and (max-width: 1400px) {
+      .section-text-over-media-8425 {
+        background-image: url(./media/letter_edit_2-mr.jpg);
+      }
+    }
+    
+  
+</style>
+
+<div id="the-child-turns-18-8425" class="section section-text-over-media section-text-over-image section-text-over-media-8425 has-text" data-viewport-height>
+  <div class="text text-over-media-inner center center normal">
+    
+      <h2 class="text-inner">
+        <strong>The child turns 18</strong> 
+      </h2>
+    
+  </div>
+
+  <div class="background-overlay">
+    
+  </div>
+
+  
+
+  <img alt="" data-landscape-src="./media/letter_edit_2-hr.jpg" data-portrait-src="" class="section-background-image text-over-media-background-image retina-only" data-autoscale="cover">
+</div>
+
+<script>
+(function() {
+  //IE9 fix to stop audio playing
+  var video = document.getElementById('video-the-child-turns-18-8425');
+  if (video){
+    video.muted = true;
+  }
+  var section = document.getElementById('the-child-turns-18-8425');
+
+  // Chrome on MacBook Retina
+  if (Device.isMacRetinaChrome()) {
+    var backgroundImage = document.querySelector('#the-child-turns-18-8425 .section-background-image');
+    var srcProperty = 'landscapeSrc';
+
+    if (Shorthand.helpers.isPortrait() && backgroundImage.dataset.portraitSrc.length) {
+      srcProperty = 'portraitSrc';
+    }
+
+    backgroundImage.src = backgroundImage.dataset[srcProperty];
+    backgroundImage.style.display = 'block';
+    section.style.backgroundImage = 'none';
+  }
+
+  ViewportHeight.attachTo(section);
+}());
+</script>
+<div id="text-1417" class="section section-text inner-column-centered "
+  
+>
+  
+
+  <div class="main-column">
+    <div class="block text-block"><p>When these teenagers turn 18 their temporary leave to remain runs out. Most could have appealed when they were first given temporary papers, arguing instead for full asylum, but the vast majority do not do so. Tragically, many believe their temporary leave is a form of visa that will allow them to stay in the country forever.  </p>
+<p>Teenagers who are not successful can appeal several times, and each appeal takes its toll. “I’ve seen young people stressed to the point that they wee themselves,” says Goldsmiths' Clayton. “They can’t speak, they are shaking with fear. I’ve seen a judge walk out of an appeal in an absolute fury because, he said, this isn’t justice, this child is being terrorised by the Home Office.”  </p>
+<p>Five years after turning 18 Abdul is waiting on a final decision on his case. He is not allowed to work nor could he take up the offers he had to go to university because he was not able to get a student loan. Stuck in his one-room flat he lives in a kind of suspended animation - not wanting a negative decision on his case, but neither wanting to be completely forgotten in the system.  </p>
+<p>A report produced by the Children's Commissioner in 2014 detailed the impact this waiting period can have: “Although still lawfully present during this period, young people are not provided with any documents to prove so. This can impact on their ability to conduct their lives in a dignified manner. Young people experience the waiting as hugely frustrating and debilitating. They cannot make plans for the future and their motivation is affected."  </p>
+<p>The majority of those who appeal eventually lose and are deported. Just one in five Afghan teenagers who applied for asylum once their leave to remain had run out was given it. Fifty-five per cent of them were rejected outright and told they were to be deported. At this point they become “Appeal Rights Exhausted”. Figures obtained by the Bureau show there are currently 490 young people of all nationalities who arrived as unaccompanied children, and have since turned 18, who are now Appeal Rights Exhausted and awaiting deportation.  </p></div>
+  </div>
+
+  
+</div>
+<script>
+  //IE9 fix to stop audio playing
+  var video = document.getElementById('video-text-1417')
+    if (video){
+      video.muted = true;
+    }
+</script><style>
+  
+</style>
+
+<div id="media-1971" class="section section-media section-media-video section-media-1971" data-viewport-height data-video-player data-viewport-height-ignore-orientation="portrait">
+  
+    
+      <video class="video-js vjs-default-skin" controls preload="none" poster="./media/screen_shot_2015-07-17_at_11.41.04-mr.png" width="100%" height="100%" data-ratio="1.77777777778">
+        
+          <source src="./media/abdul_2.mp4" type="video/mp4"/>
+        
+          <source src="./media/placeholder_vr13m5a.webm" type="video/webm"/>
+        
+      </video>
+    
+  
+
+  
+
+
+  
+</div>
+
+<script>
+  ViewportHeight.attachTo(document.getElementById('media-1971'));
+</script><style>
+  
+    .section-text-over-media-8759 {
+      background-image: url(./media/removal_flight_crop-hr.jpg);
+    }
+
+    .lt-ie9 .section-text-over-media-8759 {
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./media/removal_flight_crop-hr.jpg', sizingMethod='scale')";
+    }
+
+    @media (max-width: 755px){
+      .section-text-over-media-8759 {
+        background-image: url(./media/removal_flight_crop-lr.jpg);
+      }
+    }
+    @media (min-width: 755px) and (max-width: 1400px) {
+      .section-text-over-media-8759 {
+        background-image: url(./media/removal_flight_crop-mr.jpg);
+      }
+    }
+    
+  
+</style>
+
+<div id="waiting-for-deportation-8759" class="section section-text-over-media section-text-over-image section-text-over-media-8759 has-text" data-viewport-height>
+  <div class="text text-over-media-inner center center normal">
+    
+      <h2 class="text-inner">
+        Waiting for deportation
+      </h2>
+    
+  </div>
+
+  <div class="background-overlay">
+    
+  </div>
+
+  
+
+  <img alt="" data-landscape-src="./media/removal_flight_crop-hr.jpg" data-portrait-src="" class="section-background-image text-over-media-background-image retina-only" data-autoscale="cover">
+</div>
+
+<script>
+(function() {
+  //IE9 fix to stop audio playing
+  var video = document.getElementById('video-waiting-for-deportation-8759');
+  if (video){
+    video.muted = true;
+  }
+  var section = document.getElementById('waiting-for-deportation-8759');
+
+  // Chrome on MacBook Retina
+  if (Device.isMacRetinaChrome()) {
+    var backgroundImage = document.querySelector('#waiting-for-deportation-8759 .section-background-image');
+    var srcProperty = 'landscapeSrc';
+
+    if (Shorthand.helpers.isPortrait() && backgroundImage.dataset.portraitSrc.length) {
+      srcProperty = 'portraitSrc';
+    }
+
+    backgroundImage.src = backgroundImage.dataset[srcProperty];
+    backgroundImage.style.display = 'block';
+    section.style.backgroundImage = 'none';
+  }
+
+  ViewportHeight.attachTo(section);
+}());
+</script>
+<div id="scrollmation-two-column-3990" class="section section-scrollmation scrollmation-two-column section-two-column-3990" data-possible-scrollmation data-scrollmation-container="#scrollmation-two-column-3990" data-viewport-height data-viewport-height-property="min-height">
+  <div class="two-column-grid">
+    <div class="column column-left main-column scrollmation-text">
+      
+        <div class="block text-block"><p>As they wait for deportation they must sign in at the Home Office each week. Every time they sign in, they fear they will be detained and sent “home”.  </p>
+<p>“One guy, every time he goes to sign, texts me to say goodbye and thank you,” says Mahmood, the social worker. “Later I get a smiley emoticon and I know he is safe. He has a two-year-old child with a British girl and each time he goes to sign on he thinks he may never see his son again.”  </p>
+<p>Being scooped up without warning is not a fanciful prospect; it is exactly what happened to Kamal.  </p>
+<p>Kamal, 20, arrived in the UK aged 15. Given temporary leave to remain, he built ties with his foster family, went to school and excelled in IT. He met a British girlfriend and made friends; “British citizens” he says eagerly. Then he turned 18.  </p>
+<p>Kamal’s application to extend his leave was refused and he was informed that he would be removed, and must start signing in every week, which he did for two and a half years as he waited for a final decision on his case.  </p>
+<p>On one of these routine sign-ins, Kamal was detained. His girlfriend was left waiting outside for hours: “They didn’t give me a chance to call her,” he recalls. He says he was handcuffed, put into a van and taken to a detention centre where he was held for six months.  </p>
+<p>One day, officials “gave me three pages of paper and said to me ‘that’s your ticket, you’re going to be removed on this date, at this time, on this flight to Afghanistan’’. There was no help, just crying and praying for God.”  </p>
+<p>Kamal, along with many others, was taken to Stansted Airport, through a terminal gate closed to the public and put, handcuffed, onto a plane.  </p>
+<p>“At the airport ... there was no one there, just a few lights on. They [border officials] had a camera they made a video of us, and if the person was saying they don’t want to go, they got handcuffed,” he explains.  </p>
+<p>Kamal estimates there were more than 100 people being removed on the plane, along with scores of security personnel. “We took off and then I thought ‘Ok, now you have to think about how to survive in Kabul’. There was a lot of crying; every single person there was crying,” he says.  </p>
+<p>“Most of the people on the plane didn’t speak English - I was one of the only ones [that did.] They didn’t say nothing [on the tanoy] – you know, normally [the crew] might tell you you’re crossing a border, or you’re landing; they didn’t say nothing,” he says.  </p>
+<p>As the plane started to descend to Kabul, reports came in of fighting in the airport. Because it was  unsafe to land, the plane had to return to London.  </p>
+<p>Kamal was once again put in detention, but was released last year. He is not allowed to work, and has been unable to finish his IT A-level because he missed so much of the course. He relies on the kindness of friends, along with the £35.39 a week he gets from the Government. Kamal is trying to appeal his asylum refusal based on mental health grounds.  </p>
+<p>Refugee Support Network has been working with Kamal since he was 15, and Gladwell has watched him go through a lot. “He was one of the first young people we started [working] with, and he was so full of life and hope. He used to take the other kids bowling and he'd turn up with a big England t-shirt, as if to say ‘this is my country now’. Now he's so disillusioned,” she says. “It's just been really sad to see.”  </p></div>
+      
+    </div>
+
+    <div class="column margin-left secondary-column position-static">
+      <div class="scrollmation-slides" data-copy-elements=".section-two-column-3990 [data-copy-element]" data-scrollmation-slides>
+      </div>
+    </div>
+  </div>
+</div><style>
+  
+    .section-text-over-media-8426 {
+      background-image: url(./media/removed_edit2-hr_jrjztrf.jpg);
+    }
+
+    .lt-ie9 .section-text-over-media-8426 {
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./media/removed_edit2-hr_jrjztrf.jpg', sizingMethod='scale')";
+    }
+
+    @media (max-width: 755px){
+      .section-text-over-media-8426 {
+        background-image: url(./media/removed_edit2-lr_ptcvggi.jpg);
+      }
+    }
+    @media (min-width: 755px) and (max-width: 1400px) {
+      .section-text-over-media-8426 {
+        background-image: url(./media/removed_edit2-mr_vgmrsoh.jpg);
+      }
+    }
+    
+  
+</style>
+
+<div id="back-in-afghanistan-8426" class="section section-text-over-media section-text-over-image section-text-over-media-8426 has-text" data-viewport-height>
+  <div class="text text-over-media-inner center center normal">
+    
+      <h2 class="text-inner">
+        <strong>Back in Afghanistan</strong>
+      </h2>
+    
+  </div>
+
+  <div class="background-overlay">
+    
+  </div>
+
+  
+
+  <img alt="" data-landscape-src="./media/removed_edit2-hr_jrjztrf.jpg" data-portrait-src="" class="section-background-image text-over-media-background-image retina-only" data-autoscale="cover">
+</div>
+
+<script>
+(function() {
+  //IE9 fix to stop audio playing
+  var video = document.getElementById('video-back-in-afghanistan-8426');
+  if (video){
+    video.muted = true;
+  }
+  var section = document.getElementById('back-in-afghanistan-8426');
+
+  // Chrome on MacBook Retina
+  if (Device.isMacRetinaChrome()) {
+    var backgroundImage = document.querySelector('#back-in-afghanistan-8426 .section-background-image');
+    var srcProperty = 'landscapeSrc';
+
+    if (Shorthand.helpers.isPortrait() && backgroundImage.dataset.portraitSrc.length) {
+      srcProperty = 'portraitSrc';
+    }
+
+    backgroundImage.src = backgroundImage.dataset[srcProperty];
+    backgroundImage.style.display = 'block';
+    section.style.backgroundImage = 'none';
+  }
+
+  ViewportHeight.attachTo(section);
+}());
+</script>
+<div id="scrollmation-two-column-3991" class="section section-scrollmation scrollmation-two-column section-two-column-3991" data-possible-scrollmation data-scrollmation-container="#scrollmation-two-column-3991" data-viewport-height data-viewport-height-property="min-height">
+  <div class="two-column-grid">
+    <div class="column column-right main-column scrollmation-text">
+      
+        <div class="block text-block"><p><strong>Back in Afghanistan</strong> </p><aside class="scrollmation-inline " data-copy-element data-media-ratio="1.50027700831" data-resize-element=".scrollmation-two-column .secondary-column" data-scrollmation-slide>
+<img alt="" class="inline-image edit-image-button" data-min-width-1401="./media/shutterstock_160921583-mr_qxq1xdo.jpg" src="./media/shutterstock_160921583-lr_dqt7qqx.jpg">
+</img></aside>
+
+<p>In response to questions from the Bureau a Home Office spokesperson said: "The UK has a proud history of granting asylum to those who genuinely need it, and every case is carefully considered on its individual merits. We take our international responsibility in cases involving children seriously and their welfare is at the heart of every decision made.  </p>
+<p>“Where people establish a genuine need for protection, or a well founded fear of persecution, refuge will be granted. If someone is found not to need our protection, we expect them to leave the country voluntarily. Where they do not, we will seek to enforce their departure.”  </p>
+<p>Clayton has interviewed a number of former child asylum seekers who have been forcibly returned from the UK. “The method of removal is inhumane,” she says.”These young men, they’re pulled out of bed, not dressed, leaving all their belongings. They’re taken barefoot, put into caged vans, there’s guard dogs, then they are sent back from the cargo terminals in the middle of the night."  </p>
+<p>Young men who spend their teenage years in suburban Britain rarely develop the life experiences that might help to keep them safe. On the contrary, experts suggest that, after years living in the UK, these young people’s British connections and Western mannerisms could make them an easy target. The British army pulled out of the country late last year, leaving NATO and US troops in the country. However, the persecution of interpreters formerly embedded with British troops continues: hundreds have asked to be relocated to the UK after being threatened by the Taliban. Young, westernised men could be mistaken for interpreters or other “collaborators”, and are therefore especially at risk.  </p>
+<p>Dr Liza Schuster is a City University academic based in Kabul. She has interviewed around 100 “failed asylum seekers” who are now back in Afghanistan, and says they are often seen as a source of both suspicion and money. “When you come back from Europe, especially if you’ve spent your adolescent years there, you’ve learnt different habits and behaviours. Those coming back after life in Europe are extremely traumatised and frightened by what they are faced with; they don’t know where to go, where is safe, or who to trust.’  </p>
+<p>Hakim lived in southeast England for five years before his leave to remain ran out aged 18. A year later he was removed by the Home Office. Back in Afghanistan, without any family connections or resources, he lived rough in empty warehouses.  </p>
+<p>“No one helped me at all because I was completely different,” Hakim says in an interview over Skype. “I was strange to them and they were for me. I dressed differently, and was not able to communicate with anyone." Hakim says at one point he was picked up and beaten by a gang who kept him imprisoned demanding he pay them money. Across Skype he shows pictures of himself badly bruised. Eventually he escaped.  </p>
+<p>“The hardest thing about returning back to Afghanistan was no one was waiting for me. I was very sad that I was sent back to a country that hates me.”  </p>
+<p>In the past five years 605 young people who arrived in the UK as unaccompanied teenagers have been forcibly removed.  </p>
+<p>Despite the scale of the returns programme, little is known of what happens to those that are sent back to Afghanistan. Refugee Support Network is currently undertaking long-term research tracking the experiences of these young men. So far they have found that a quarter of those tracked have experienced harm or difficulties as a result of being viewed as “westernised outsiders”.  </p>
+<p>Even the Red Cross, which works with local organisations in the country, has trouble tracking down returning children’s relatives. The organisation tried to trace the families of 228 unaccompanied asylum-seeking children in Afghanistan in the past two years but only succeeded eight times.  </p>
+<p>“I miss everything about the UK: my friends, my school, my teachers, the noble people,” he explains. “After [I was kidnapped] I decided to get ready to leave this country. I don’t want to be kidnapped again. I don’t want to be killed. I want to live and have a family. My only hope for the future is to leave.”  </p>
+<p>Schuster found the vast majority of people she interviewed did try to leave the country again, and around 80% of them succeeded.  </p></div>
+      
+    </div>
+
+    <div class="column margin-right secondary-column position-static">
+      <div class="scrollmation-slides" data-copy-elements=".section-two-column-3991 [data-copy-element]" data-scrollmation-slides>
+      </div>
+    </div>
+  </div>
+</div><div id="scrollmation-background-3929" class="section section-scrollmation scrollmation-background section-scrollmation-3929 inner-column-left" data-scrollmation-container=".section-scrollmation-3929" data-scrollmation="background" data-viewport-height data-viewport-height-property="min-height">
+  
+    <div class="tiny-scrollmation vh66"></div>
+    <style>
+      .section-scrollmation-3929 .tiny-scrollmation {
+        background-image: url(./media/10891884_10205737405534634_4778801448883652337_n-lr_xgwmtnb.jpg);
+        background-position: right;
+      }
+    </style>
+  
+
+  <div class="two-column-grid">
+    <div class="column column-left main-column scrollmation-text">
+      <div class="block text-block"><p><strong>The future</strong>  </p>
+<p>Afghans are not the only asylum seekers to face problems. The Bureau compared the rate at which unaccompanied children fleeing Syria, Iran, Libya and Iraq were granted asylum to the adult rate for those countries. In every case, adults were more likely to get asylum than children travelling alone.  </p>
+<p>Unaccompanied children will continue to seek refuge here as long as war and terror force them to flee. More than 13,000 children travelled alone on perilous sea-voyages from Libya to Italy last year, many will head to the UK. “We know the summers are busy months and we don’t think it is going to get any easier for people in Libya in the next few months so we assume the problem is going to continue,” explains Joel Millman from the International Organization for Migration. This is not a problem that is going away.  </p>
+<p>It is a very real problem for Ameer. His big day in court did not go well. His application to extend his leave to remain was rejected. Now he is trying to apply again. “I don’t know what will happen,” he says, quietly. “The Taliban, they know everyone and are all over Afghanistan.  </p>
+<p>“If I go back … it’s better to kill me here. So I’m scared of the Taliban, but right now I am scared of the Home Office too.”  </p></div>
+    </div>
+  </div>
+
+  <div class="scrollmation-slides-wrapper">
+    <div class="scrollmation-slides scrollmation" data-scrollmation-slides>
+      
+        <aside class="scrollmation-background-container">
+          
+            <img src="./media/10891884_10205737405534634_4778801448883652337_n-lr_xgwmtnb.jpg" data-min-width-1001="./media/10891884_10205737405534634_4778801448883652337_n-mr_5wjt3zd.jpg" data-min-width-1401="./media/10891884_10205737405534634_4778801448883652337_n-hr_4n1xrc5.jpg" data-scrollmation-slide data-autoscale-anchor="right" width="539" height="796">
+          
+
+          
+        </aside>
+      
+    </div>
+  </div>
+</div>
+
+<script>
+  //IE9 fix to stop audio playing
+  var videos = document.getElementsByClassName('video-scrollmation-background-3929');
+  if (videos){
+    for (var i=0; i < videos.length; i++){
+      videos[i].muted = true;
+    }
+  }
+</script><div id="text-2152" class="section section-text inner-column-centered "
+  
+>
+  
+
+  <div class="main-column">
+    <div class="block text-block"><p><em>Dr Liza Schuster of City University London has written a comment piece about this issue for the Bureau, <a href="https://www.thebureauinvestigates.com/2015/07/16/comment-child-asylum-seekers-home-office-egregious-cynical-liza-schuster/">here</a>.</em>  </p>
+<p><em>The Bureau is tracking the immigration problem across Europe with a new project: the <a href="https://www.thebureauinvestigates.com/category/projects/migrationcrisis/">Migration Crisis investigation</a>.</em>  </p>
+<p><em>Follow our reporter <a href="https://twitter.com/MaeveMCC">Maeve McClenaghan on Twitter</a> or get in touch on maevemcclenaghan@tbij.com</em>  </p>
+<p><em><a href="https://tbij.us1.list-manage.com/subscribe/post?u=0592afb78c924d61727f4da3c&amp;id=a56e5b1680">Sign up for email updates</a> from the Bureau of Investigative Journalism here or <a href="https://twitter.com/TBIJ">follow us on Twitter</a>.</em>  </p></div>
+  </div>
+
+  
+</div>
+<script>
+  //IE9 fix to stop audio playing
+  var video = document.getElementById('video-text-2152')
+    if (video){
+      video.muted = true;
+    }
+</script>
+    </div>
+  </article>
+  <script>
+  performance.mark('sectionsEnd');
+  </script>
+
+
+    
+<footer>
+  
+<div class="story-footer">
+    <div class="return-to-top">
+        <div class="up-arrow">
+            <a href="#from-kent-to-kabul-3339" class="section-navigator">
+                <img src="./static/img/chevron-v1.png"/>
+            </a>
+        </div>
+        <div class="up">
+            <a href="#from-kent-to-kabul-3339" class="section-navigator">TOP</a>
+        </div>
+    </div>
+
+    <div class="image-container">
+        <a href="http://www.shorthand.com"> <img src="./static/img/created-with-shorthand.png"/></a>
+    </div>
+</div>
+
+</footer>
+
+    <script   type="text/javascript" src="./static/js/common.2146.js" charset="utf-8"></script>
+
+    
+  <script   type="text/javascript" src="./static/js/story.2146.js" charset="utf-8"></script>
+  <script>
+    //TODO: use dfd when autoscale has happened
+    setTimeout(function() {
+      $(window).resize();
+    }, 500);
+    Response.create({
+      "prop": "width",
+      'prefix': 'min-width-',
+      "breakpoints": [1001, 1401]
+    });
+  </script>
+
+  
+
+  <script>
+    
+
+    ga('create', 'UA-42055132-1', {'name': 'shorthand' });
+    ga('shorthand.send', 'pageview', {
+      'dimension1': 3356,
+      'dimension2': 236,
+      'metric1':3356,
+      'metric2':236
+    });
+
+    $(window).on('load', function() {
+      try {
+        performance.measure('startTitleTime', 'fetchStart', 'titleStart');
+        performance.measure('endTitleTime', 'fetchStart', 'titleEnd');
+
+        performance.measure('titleImageLoadedTime', 'fetchStart', 'titleImageLoaded');
+
+        performance.measure('elapsedHeadTime', 'headStart', 'headEnd');
+        performance.measure('endHeadTime', 'fetchStart', 'headEnd');
+
+        performance.measure('sectionsStartTime', 'fetchStart', 'sectionsStart');
+        performance.measure('sectionsEndTime', 'fetchStart', 'sectionsEnd');
+        performance.measure('elapsedSectionsTime', 'sectionsStart', 'sectionsEnd');
+      } catch (e) {}
+    });
+  </script>
+  
+
+  
+  </body>
+</html>
